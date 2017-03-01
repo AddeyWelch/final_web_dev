@@ -81,3 +81,23 @@ a, img {
   margin: 0;
   padding: 0;
 }
+
+.contact h2 {
+  color: #6f5e5c;
+  font-size: 300%;
+  text-align: center;
+  margin: .6%;
+  padding: 3%;
+}
+
+#statement p {
+  font-size: 150%
+}
+
+#number {
+  font-size: 200%;
+}
+
+#email {
+  font-size: 200%;
+}
