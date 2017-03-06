@@ -76,7 +76,7 @@ h3 {
   padding: 0;
 }
 
-a, img {
+img {
   width: 85%;
   height: 75%;
   margin: 0;
@@ -101,4 +101,8 @@ a, img {
 
 #email {
   font-size: 200%;
+}
+
+table {
+  padding: 0;
 }
