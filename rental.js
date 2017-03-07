@@ -6,7 +6,8 @@
 
 var Prices = {
     Castle: 100,
-    Sports: 100
+    Sports: 100,
+    Princess: 100
 };
 
 function addToCart(bouncer_name) {
