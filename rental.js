@@ -17,7 +17,7 @@ function addToCart(bouncer_name) {
     quantity++;
     $(quan_id).text(quantity);
     alert(bouncer_name + ' Bouncer was added to the cart for $' + price);
-}
+};
 
 function removeFromCart(bouncer_name) {
     var price = Number(Prices[bouncer_name]);
@@ -29,4 +29,4 @@ function removeFromCart(bouncer_name) {
     quantity--;
     $(quan_id).text(quantity);
     alert(bouncer_name + ' Bouncer was removed from the cart');
-}
+};
