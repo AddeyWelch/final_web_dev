@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <!-- JavaScript & jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- JavaScript & jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -27,9 +27,6 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-  $<text id="total">0</text>
-</div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -48,7 +45,7 @@
             </div>
             <div>
                 <button onclick="addToCart('Castle')">Add To Cart</button>
-                <button onclick="removeFromCart()">Remove From Cart</button>
+                <button onclick="removeFromCart('Castle')">Remove From Cart</button>
             </div>
         </div>
     </div>
@@ -62,16 +59,16 @@
                 <img class="img-responsive img-portfolio" src="https://images-na.ssl-images-amazon.com/images/I/51%2BzTNN9tUL.jpg">
             </div>
             <div>
-              <label for="Sports">Quantity: </label>
-              <text id='Sports'>0
+                <label for="Sports">Quantity: </label>
+                <text id='Sports'>0
               </text>
-              <br>
-              <label>Price: </label>
-              <text>$100</text>
+                <br>
+                <label>Price: </label>
+                <text>$100</text>
             </div>
             <div>
                 <button onclick="addToCart('Sports')">Add To Cart</button>
-                <button onclick="removeFromCart()">Remove From Cart</button>
+                <button onclick="removeFromCart('Sports')">Remove From Cart</button>
             </div>
         </div>
     </div>
@@ -84,41 +81,102 @@
                 <img class="img-responsive img-portfolio" src="https://s-media-cache-ak0.pinimg.com/736x/42/b7/7c/42b77c61e2b5f16461f3fdbb2a239a5e.jpg">
             </div>
             <div>
-              <label for="Princess">Quantity: </label>
-              <text id='Princess'>0
+                <label for="Princess">Quantity: </label>
+                <text id='Princess'>0
               </text>
-              <br>
-              <label>Price: </label>
-              <text>$100</text>
+                <br>
+                <label>Price: </label>
+                <text>$100</text>
                 </p>
             </div>
             <div>
                 <button onclick="addToCart('Princess')">Add To Cart</button>
-                <button onclick="removeFromCart()">Remove From Cart</button>
+                <button onclick="removeFromCart('Princess')">Remove From Cart</button>
             </div>
         </div>
     </div>
-    <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <center><img src="http://moonwalkusa.com/image/cache/data/combos/C-221-Dolphin%20Combo/C-221-Dolpin-Combo-1a-500x500.jpg"></center>
-        <div class="caption">
-            <p>Dolphin Slide Bouncer</p>
-            <p>$175</p>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><i class="fa fa-fw fa-compass"></i>Dolphin Slide Bouncer</h4>
+            </div>
+            <div>
+                <img class="img-responsive img-portfolio" src="http://moonwalkusa.com/image/cache/data/combos/C-221-Dolphin%20Combo/C-221-Dolpin-Combo-1a-500x500.jpg">
+            </div>
+            <div>
+                <label for="Dolphin">Quantity: </label>
+                <text id='Dolphin'>0
+              </text>
+                <br>
+                <label>Price: </label>
+                <text>$175</text>
+                </p>
+            </div>
+            <div>
+                <button onclick="addToCart('Dolphin')">Add To Cart</button>
+                <button onclick="removeFromCart('Dolphin')">Remove From Cart</button>
+            </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <center><img src="http://assets.cdn.newmediaretailer.com/133000/133999/web_jump-n-splash-jungle-with-pool-2-piece.jpg"></center>
-        <div class="caption">
-            <p>Elephant Bouncer</p>
-            <p>$175</p>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><i class="fa fa-fw fa-compass"></i>Elephant Bouncer</h4>
+            </div>
+            <div>
+                <img class="img-responsive img-portfolio" src="http://assets.cdn.newmediaretailer.com/133000/133999/web_jump-n-splash-jungle-with-pool-2-piece.jpg">
+            </div>
+            <div>
+                <label for="Elephant">Quantity: </label>
+                <text id='Elephant'>0
+              </text>
+                <br>
+                <label>Price: </label>
+                <text>$175</text>
+                </p>
+            </div>
+            <div>
+                <button onclick="addToCart('Elephant')">Add To Cart</button>
+                <button onclick="removeFromCart('Elephant')">Remove From Cart</button>
+            </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <center><img src="https://hendersonvillepartystore.com/wp-content/uploads/2015/01/Double-Slide-500x500.jpg"></center>
-        <div class="caption">
-            <p>YRB Slide Bouncer</p>
-            <p>$175</p>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><i class="fa fa-fw fa-compass"></i>YRB Slide Bouncer</h4>
+            </div>
+            <div>
+                <img class="img-responsive img-portfolio" src="https://hendersonvillepartystore.com/wp-content/uploads/2015/01/Double-Slide-500x500.jpg">
+            </div>
+            <div>
+                <label for="Slide">Quantity: </label>
+                <text id='Slide'>0
+              </text>
+                <br>
+                <label>Price: </label>
+                <text>$175</text>
+                </p>
+            </div>
+            <div>
+                <button onclick="addToCart('Slide')">Add To Cart</button>
+                <button onclick="removeFromCart('Slide')">Remove From Cart</button>
+            </div>
         </div>
-    </div> -->
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><i class="fa fa-fw fa-compass"></i>Shopping Cart</h4>
+            </div>
+            <div>
+                <img class="img-responsive img-portfolio" src="https://img.clipartfest.com/6d4ea3db391f7bba16e85188e0e039ca_open-clipart-shopping-cart-icon_1000-860.png">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                $<text id="total">0</text>
+            </div>
+        </div>
+    </div>
 
     <script src='rental.js'></script>
 

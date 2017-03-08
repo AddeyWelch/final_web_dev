@@ -1,10 +1,10 @@
 h1 {
-  color: #9DC5BB;
-  font-size: 400%;
-  font-family: 'Sacramento', cursive;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    color: #9DC5BB;
+    font-size: 400%;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 #one {
@@ -27,82 +27,88 @@ li a {
     text-decoration: none;
 }
 
+
 /* Change the link color to Space Cadet on hover */
+
 li a:hover {
     background-color: #18314f;
 }
 
 h2 {
-  color: #6f5e5c;
-  font-size: 200%;
-  text-align: left;
-  margin: .6%;
-  padding: 0;
+    color: #6f5e5c;
+    font-size: 200%;
+    text-align: left;
+    margin: .6%;
+    padding: 0;
 }
 
 p {
-  font-size: 120%;
-  font-family: 'Tenor Sans', sans-serif;
-  margin: 0;
-  padding: 0;
+    font-size: 120%;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
-  color: #6f5e5c;
-  font-size: 200%;
-  text-align: left;
-  margin: .6%;
-  padding: 0;
+    color: #6f5e5c;
+    font-size: 200%;
+    text-align: left;
+    margin: .6%;
+    padding: 0;
 }
 
 #two li {
-  font-size: 120%;
-  font-family: 'Tenor Sans', sans-serif;
+    font-size: 120%;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 .items h2 {
-  color: #18314f;
-  font-size: 200%;
-  text-align: left;
-  margin: .6%;
-  padding: 0;
+    color: #18314f;
+    font-size: 200%;
+    text-align: left;
+    margin: .6%;
+    padding: 0;
 }
 
 .caption p {
-  color: #18314f;
-  font-size: 105%;
-  font-family: 'Tenor Sans', sans-serif;
-  margin: 0;
-  padding: 0;
+    color: #18314f;
+    font-size: 105%;
+    font-family: 'Tenor Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-  width: 85%;
-  height: 75%;
-  margin: 0;
-  padding: 0;
+    width: 85%;
+    height: 75%;
+    margin: 0;
+    padding: 0;
 }
 
 .contact h2 {
-  color: #6f5e5c;
-  font-size: 300%;
-  text-align: center;
-  margin: .6%;
-  padding: 3%;
+    color: #6f5e5c;
+    font-size: 300%;
+    text-align: center;
+    margin: .6%;
+    padding: 3%;
 }
 
 #statement p {
-  font-size: 150%
+    font-size: 150%
 }
 
 #number {
-  font-size: 200%;
+    font-size: 200%;
 }
 
 #email {
-  font-size: 200%;
+    font-size: 200%;
 }
 
 table {
-  padding: 0;
+    padding: 0;
+}
+
+text {
+    font-size: 150%;
 }
