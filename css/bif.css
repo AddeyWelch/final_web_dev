@@ -7,38 +7,11 @@ h1 {
     padding: 0;
 }
 
-#header {
+.header {
   color: #9DC5BB;
   font-size: 400%;
   font-family: 'Sacramento', cursive;
   text-align: center;
-}
-
-#one {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-#one li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-/* Change the link color to Space Cadet on hover */
-
-li a:hover {
-    background-color: #18314f;
 }
 
 h2 {
@@ -118,4 +91,8 @@ table {
 
 text {
     font-size: 150%;
+}
+
+.container-fluid {
+  background-color: #6f5e5c;
 }
