@@ -55,3 +55,7 @@ text {
   color: #18314f;
   font-family: 'Tenor Sans', sans-serif;
 }
+
+.description {
+  font-size: 100%;
+}
